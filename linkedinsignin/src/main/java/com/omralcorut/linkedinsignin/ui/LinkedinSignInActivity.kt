@@ -243,7 +243,7 @@ class LinkedinSignInActivity: Activity() {
     }
 
     companion object {
-        private const val AUTHORIZATION_URL = "https://www.linkedin.com/oauth/v2/authorization"
+        private const val AUTHORIZATION_URL = "https://www.linkedin.com/oauth/v2/accessToken"
         private const val ACCESS_TOKEN_URL = "https://www.linkedin.com/oauth/v2/accessToken"
         private const val RESPONSE_TYPE = "response_type"
         private const val CLIENT_ID = "client_id"
